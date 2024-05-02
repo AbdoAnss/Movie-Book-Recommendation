@@ -1,3 +1,4 @@
+import time
 import streamlit as st
 import smtplib
 from email.mime.text import MIMEText
@@ -32,13 +33,17 @@ def send_email(sender, recipient, subject, message):
     server.sendmail(sender, recipient, msg.as_string())
     server.quit()
 
+
+
 def main():
-    st.sidebar.title('CineLit')
+    st.sidebar.image('images/logo.png', use_column_width=True)
     
     # Initialize page with a default value
     page = "home"  # Default page
     
     # Navigation buttons
+    if st.sidebar.button("Initialize System"):
+        page = "init-sys"
     if st.sidebar.button("Home"):
         page = "home"
     if st.sidebar.button("About Team"):
@@ -48,33 +53,35 @@ def main():
     
     # Page content
     if page == "home":
-        st.title("Welcome to Our Bot!")
-        st.write("Your Favourite bot for movies and books recommendation.")
-        
-        # Input field for user to input a description
-        st.text_input("Enter a description of a movie or book:")
+       
+        st.title("🔍Movies and Books Recommendation System")
+        st.markdown("**😉Ready for your next binge?** We'll find the perfect movie or book to fuel your obsession. **🤔💭Can't decide what to watch or read?** Let us be your story sherpa and guide you to your next adventure. **🚀Tell us your taste, we'll find your treasure!** Dive into a personalized world of movies and books you'll love. ")
+
+        st.title("📄 Submit Your Description")
+        query = st.text_input("Enter your query here:")
+        st.markdown("""
+        <style>
+            div[data-testid="stTextInput"] input {
+                border: 2px solid red !important;
+                border-radius: 5px;
+                padding: 5px;
+            }
+        </style>
+        """, unsafe_allow_html=True)
+
+
+
+        if st.button("Submit"):
+            st.write(f"Submitted query: {query}")
         
     elif page == "about_team":
         st.title("About Our Team")
 
         # Text before the image
-        st.write("Meet our dedicated team of professionals who are passionate about their work and committed to providing the best service to our clients.")
-
-        # Create columns for parallel image display
-        col1, col2 = st.columns(2)
-        
-        # Open and resize images
-        image1 = Image.open('images/image1.jpeg')
-        resized_image1 = image1.resize((300, 200))  # Adjust width and height as needed
-        image2 = Image.open('images/image2.jpeg')
-        resized_image2 = image2.resize((300, 200))  
-        
-        # Display images and captions in parallel columns
-        with col1:
-            st.image(resized_image1, caption="I'm a Computer Science student who is passionate about ML and Data science. I'm always eager to learn more and expand my knowledge in these fields.", use_column_width=False)
-        with col2:
-            st.image(resized_image2, caption="👋 Hi, I’m @NajmiHassan. 👀 I’m interested in Python Programming and Machine Learning.🌱 I’m currently a learner in AI. 💞️ I’m looking to collaborate on ML Projects", use_column_width=False)
-    
+        st.write("🌟 Meet our dedicated team of professionals who are passionate about their work and committed to providing the best service to our clients. 💼👩‍💼👨‍💼🔧📈🌟")
+        st.write("Check out our team members on lablab.ai:")
+        st.write("https://lablab.ai/event/assistants-api-llamaindex-mongodb-battle/datacraft-leaders")
+       
 
     elif page == "contact":
         st.title("Contact Us")
@@ -92,5 +99,24 @@ def main():
                 send_email(sender_email, 'your_email@example.com', subject, message)
                 st.success("Your query has been sent. We will contact you soon.")
 
+        # Apply red border to input fields
+        st.markdown("""
+            <style>
+                div[data-testid="stTextInput"] input {
+                    border: 2px solid red !important;
+                    border-radius: 5px;
+                    padding: 5px;
+                }
+                div[data-testid="stTextArea"] textarea {
+                    border: 2px solid red !important;
+                    border-radius: 5px;
+                    padding: 5px;
+                }
+            </style>
+        """, unsafe_allow_html=True)
+
+    
+
 if __name__ == "__main__":
     main()
+
