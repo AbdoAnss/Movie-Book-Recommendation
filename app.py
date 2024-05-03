@@ -1,5 +1,6 @@
 import streamlit as st
-from Setup import setup  # This should only set up configurations, not load data.
+from Setup import setup  # This should only set up configurations for movies
+from BookSetup import book_setup  # Function to set up configurations for books
 from User_query_management import QueryManager
 from Feedback import FeedbackManager
 from trulens_eval import Tru
@@ -14,7 +15,6 @@ def main():
     Welcome to your personal recommendation assistant! 🌟📚 Whether you're in the mood for a thrilling mystery, heartwarming romance, or captivating documentary, simply describe your interests and let our app do the rest.
     Just chat with us like you would with a friend, and we'll recommend books and movies tailored just for you. It's that easy!
     """)
-
 
     initialize_tru()
 
@@ -31,44 +31,44 @@ def main():
         if 'vector_index' not in st.session_state:
             if st.button('Initialize System', key='init_system'):
                 with st.spinner('🔄 Setting up resources...'):
-                    st.session_state.vector_index = setup()
+                    if st.session_state.search_type == 'Movies':
+                        st.session_state.vector_index = setup()
+                    elif st.session_state.search_type == 'Books':
+                        st.session_state.vector_index = book_setup()
                 st.success('System initialized successfully! 🎉')
-
 
     st.header('📝 Describe Your Interests')
 
-    # Checkbox for selecting search types
-    search_types = st.multiselect(
-        'I am interested in:',
-        ['Movies', 'Books'],
-        ['Movies']  # Default selection
-    )
+    # Radio button for selecting search type (Movies or Books)
+    st.write("Select your interest:")
+    search_type = st.radio('Search for:', ['Movies', 'Books'], index=0)
 
+    # Store the selected search type in session state
+    st.session_state.search_type = search_type
 
-    # Validate selection
-    if not search_types:
-        st.error('Please select at least one search type.')
-    else:
-        query = st.text_area(
+    query = st.text_area(
         'Tell us about what you\'re looking for:',
         key='query_input',
     )
 
-        if st.button('Submit', key='submit_query'):
-            if 'vector_index' not in st.session_state:
-                with st.spinner('🔄 Initializing resources...'):
+    if st.button('Submit', key='submit_query'):
+        if 'vector_index' not in st.session_state:
+            with st.spinner('🔄 Initializing resources...'):
+                if st.session_state.search_type == 'Movies':
                     st.session_state.vector_index = setup()
+                elif st.session_state.search_type == 'Books':
+                    st.session_state.vector_index = book_setup()
 
-            query_manager = QueryManager(st.session_state.vector_index)
-            st.session_state.response = query_manager.perform_query(query)
+        query_manager = QueryManager(st.session_state.vector_index)
+        st.session_state.response = query_manager.perform_query(query)
 
-            feedback_manager = FeedbackManager(query_manager.query_engine)
-            st.session_state.records = feedback_manager.record_query(query)
+        feedback_manager = FeedbackManager(query_manager.query_engine)
+        st.session_state.records = feedback_manager.record_query(query)
 
-            # Custom HTML styling for response display
-            st.markdown(f"**Response:** <div style='background-color:yellow;padding:10px;border-radius:5px;'>{st.session_state.response.response}</div>", unsafe_allow_html=True)
-            st.write('Response:', st.session_state.response)
-            st.write('Feedback Records:', st.session_state.records)
+        # Custom HTML styling for response display
+        st.markdown(f"**Response:** <div style='background-color:yellow;padding:10px;border-radius:5px;'>{st.session_state.response.response}</div>", unsafe_allow_html=True)
+        st.write('Response:', st.session_state.response)
+        st.write('Feedback Records:', st.session_state.records)
 
     manage_dashboard()
 
