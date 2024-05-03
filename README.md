@@ -32,3 +32,75 @@ The development of the Movie & Book Recommendation System is divided into the fo
 - Data Filtering: #################--: 90%
 
 - DataSet construction: #################: 100%
+
+```
+Movie-Book-Recommendation
+├─ .git
+│  ├─ config
+│  ├─ description
+│  ├─ HEAD
+│  ├─ hooks
+│  │  ├─ applypatch-msg.sample
+│  │  ├─ commit-msg.sample
+│  │  ├─ fsmonitor-watchman.sample
+│  │  ├─ post-update.sample
+│  │  ├─ pre-applypatch.sample
+│  │  ├─ pre-commit.sample
+│  │  ├─ pre-merge-commit.sample
+│  │  ├─ pre-push.sample
+│  │  ├─ pre-rebase.sample
+│  │  ├─ pre-receive.sample
+│  │  ├─ prepare-commit-msg.sample
+│  │  ├─ push-to-checkout.sample
+│  │  ├─ sendemail-validate.sample
+│  │  └─ update.sample
+│  ├─ index
+│  ├─ info
+│  │  └─ exclude
+│  ├─ logs
+│  │  ├─ HEAD
+│  │  └─ refs
+│  │     ├─ heads
+│  │     │  └─ main
+│  │     └─ remotes
+│  │        └─ origin
+│  │           └─ HEAD
+│  ├─ objects
+│  │  ├─ info
+│  │  └─ pack
+│  │     ├─ pack-84738efec78a09533b80ca85df4e43dfed9d0e4a.idx
+│  │     ├─ pack-84738efec78a09533b80ca85df4e43dfed9d0e4a.pack
+│  │     └─ pack-84738efec78a09533b80ca85df4e43dfed9d0e4a.rev
+│  ├─ packed-refs
+│  └─ refs
+│     ├─ heads
+│     │  └─ main
+│     ├─ remotes
+│     │  └─ origin
+│     │     └─ HEAD
+│     └─ tags
+├─ .gitignore
+├─ app.py
+├─ configuration.py
+├─ Data_management.py
+├─ default.sqlite
+├─ Feedback.py
+├─ first_30_books.json
+├─ first_50_films.json
+├─ pages
+│  ├─ about.py
+│  ├─ contact.py
+│  ├─ data.py
+│  └─ help.py
+├─ README.md
+├─ requirements.txt
+├─ Setup.py
+├─ User_query_management.py
+└─ __pycache__
+   ├─ configuration.cpython-312.pyc
+   ├─ Data_management.cpython-312.pyc
+   ├─ Feedback.cpython-312.pyc
+   ├─ Setup.cpython-312.pyc
+   └─ User_query_management.cpython-312.pyc
+
+```

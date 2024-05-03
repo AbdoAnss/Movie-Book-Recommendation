@@ -23,7 +23,7 @@ class DataManager:
     def create_documents(self, movie_data):
         print("Creating movie documents...")
         documents = []
-        for movie in movie_data:
+        for movie in movie_data["movies"]:
             text_content = (
                 f"Title: {movie['Title']}\n"
                 f"Year: {movie['Year']}\n"

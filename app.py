@@ -1,122 +1,75 @@
-import time
 import streamlit as st
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
-from PIL import Image
+from Setup import setup  # This should only set up configurations, not load data.
+from User_query_management import QueryManager
+from Feedback import FeedbackManager
+from trulens_eval import Tru
 
-# Define the pages
-PAGES = {
-    "Home": "home",
-    "About Team": "about_team",
-    "Contact": "contact"
-}
-
-def send_email(sender, recipient, subject, message):
-    # SMTP server configuration
-    smtp_server = 'smtp.gmail.com'
-    smtp_port = 587
-    smtp_username = 'your_email@gmail.com'  # Your email
-    smtp_password = 'your_password'  # Your email password
-
-    # Email content
-    msg = MIMEMultipart()
-    msg['From'] = sender
-    msg['To'] = recipient
-    msg['Subject'] = subject
-    msg.attach(MIMEText(message, 'plain'))
-
-    # Send the email
-    server = smtplib.SMTP(smtp_server, smtp_port)
-    server.starttls()
-    server.login(smtp_username, smtp_password)
-    server.sendmail(sender, recipient, msg.as_string())
-    server.quit()
-
-
+def initialize_tru():
+    if 'tru' not in st.session_state:
+        st.session_state.tru = Tru()
 
 def main():
-    st.sidebar.image('images/logo.png', use_column_width=True)
-    
-    # Initialize page with a default value
-    page = "home"  # Default page
-    
-    # Navigation buttons
-    if st.sidebar.button("Initialize System"):
-        page = "init-sys"
-    if st.sidebar.button("Home"):
-        page = "home"
-    if st.sidebar.button("About Team"):
-        page = "about_team"
-    if st.sidebar.button("Contact"):
-        page = "contact"
-    
-    # Page content
-    if page == "home":
-       
-        st.title("🔍Movies and Books Recommendation System")
-        st.markdown("**😉Ready for your next binge?** We'll find the perfect movie or book to fuel your obsession. **🤔💭Can't decide what to watch or read?** Let us be your story sherpa and guide you to your next adventure. **🚀Tell us your taste, we'll find your treasure!** Dive into a personalized world of movies and books you'll love. ")
+    st.title('🔍 Movie/Book Recommendation System')
+    st.markdown("""
+    Welcome to the **Movie/Book Recommendation System**! 🌟🎥📚 This tool is designed to process your description with precision and provide recommendation from our database. 
+    Use this system to harness powerful insights from the data, interactively and efficiently.
+    """)
 
-        st.title("📄 Submit Your Description")
-        query = st.text_input("Enter your query here:")
-        st.markdown("""
-        <style>
-            div[data-testid="stTextInput"] input {
-                border: 2px solid red !important;
-                border-radius: 5px;
-                padding: 5px;
-            }
-        </style>
-        """, unsafe_allow_html=True)
+    initialize_tru()
+
+    with st.sidebar:
+        st.page_link("app.py", label="Home", icon="🏠")
+        st.page_link('pages/data.py', label='Data', icon='📊')
+        st.page_link('pages/about.py', label='About our team', icon='🌟')
+        st.page_link('pages/contact.py', label='Contact us', icon='📧')
+        st.page_link('pages/help.py', label='Help', icon='❓')
+        st.markdown('---')
+        st.header('⚙️ Configuration')
+        st.caption("Adjust system settings and initialize resources as needed.")
+        if 'vector_index' not in st.session_state:
+            if st.button('Initialize System', key='init_system'):
+                with st.spinner('🔄 Setting up resources...'):
+                    st.session_state.vector_index = setup()
+                st.success('System initialized successfully! 🎉')
 
 
+    st.header('📝 Submit Your Query')
+    query = st.text_input('Enter your query here:', key='query_input')
 
-        if st.button("Submit"):
-            st.write(f"Submitted query: {query}")
-        
-    elif page == "about_team":
-        st.title("About Our Team")
+    if st.button('Submit', key='submit_query'):
+        if 'vector_index' not in st.session_state:
+            with st.spinner('🔄 Initializing resources...'):
+                st.session_state.vector_index = setup()
 
-        # Text before the image
-        st.write("🌟 Meet our dedicated team of professionals who are passionate about their work and committed to providing the best service to our clients. 💼👩‍💼👨‍💼🔧📈🌟")
-        st.write("Check out our team members on lablab.ai:")
-        st.write("https://lablab.ai/event/assistants-api-llamaindex-mongodb-battle/datacraft-leaders")
-       
+        query_manager = QueryManager(st.session_state.vector_index)
+        st.session_state.response = query_manager.perform_query(query)
 
-    elif page == "contact":
-        st.title("Contact Us")
-        st.write("Send us your queries and we'll get back to you as soon as possible.")
-        
-        # Contact form
-        with st.form(key='contact_form'):
-            sender_email = st.text_input("Your Email")
-            subject = st.text_input("Subject")
-            message = st.text_area("Message")
-            submit_button = st.form_submit_button(label='Send')
-            
-            if submit_button and sender_email and subject and message:
-                # Assuming 'your_email@example.com' is the email you want to receive messages at
-                send_email(sender_email, 'your_email@example.com', subject, message)
-                st.success("Your query has been sent. We will contact you soon.")
+        feedback_manager = FeedbackManager(query_manager.query_engine)
+        st.session_state.records = feedback_manager.record_query(query)
 
-        # Apply red border to input fields
-        st.markdown("""
-            <style>
-                div[data-testid="stTextInput"] input {
-                    border: 2px solid red !important;
-                    border-radius: 5px;
-                    padding: 5px;
-                }
-                div[data-testid="stTextArea"] textarea {
-                    border: 2px solid red !important;
-                    border-radius: 5px;
-                    padding: 5px;
-                }
-            </style>
-        """, unsafe_allow_html=True)
+        # Custom HTML styling for response display
+        st.markdown(f"**Response:** <div style='background-color:yellow;padding:10px;border-radius:5px;'>{st.session_state.response.response}</div>", unsafe_allow_html=True)
+        st.write('Response:', st.session_state.response)
+        st.write('Feedback Records:', st.session_state.records)
 
-    
+    manage_dashboard()
 
-if __name__ == "__main__":
+def manage_dashboard():
+    st.header('🎮 Trulens Eval Dashboard')
+    port = 7000
+    ip_address = "192.0.0.2"
+
+    if st.button('🚀 Launch TRU Dashboard', key='launch_dashboard'):
+        try:
+            st.session_state.dashboard_process = st.session_state.tru.run_dashboard(port=port, force=True)
+            st.success(f"🌐 Dashboard is now running on [http://{ip_address}:{port}](http://{ip_address}:{port})")
+        except Exception as e:
+            st.error(f"🚨 Error launching dashboard: {str(e)}")
+
+    if st.button('🛑 Stop TRU Dashboard', key='stop_dashboard'):
+        if 'dashboard_process' in st.session_state and st.session_state.dashboard_process is not None:
+            st.session_state.dashboard_process.terminate()
+            st.success("Dashboard has been stopped. 🛑")
+
+if __name__ == '__main__':
     main()
-
