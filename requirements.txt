@@ -1,4 +1,12 @@
+llama-index
+llama-index-vector-stores-mongodb
+llama-index-embeddings-openai
+pymongo
+datasets
+pandas
+trulens_eval
+python-dotenv
 streamlit
-smtplib
-email
-pillow
+watchdog
+trulens_eval
+trulens
