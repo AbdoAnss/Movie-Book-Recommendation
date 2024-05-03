@@ -11,3 +11,4 @@ watchdog
 trulens_eval
 trulens
 IPython
+nltk
