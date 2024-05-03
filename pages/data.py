@@ -27,11 +27,11 @@ def app():
 
     # Load JSON data
     films_data = load_json('first_50_films.json')
-    books_data = load_json('first_30_books.json')
+    books_data = load_json('first_50_books.json')
 
     # Convert JSON data to pandas DataFrames
     films_df = pd.DataFrame(films_data['movies'])
-    books_df = pd.DataFrame(books_data)
+    books_df = pd.DataFrame(books_data['books'])
 
     # Convert 'Year' column to integers
     films_df['Year'] = films_df['Year'].astype(int)
@@ -40,7 +40,7 @@ def app():
     st.subheader("First 50 Films Data")
     st.dataframe(films_df.style.set_properties(**{'text-align': 'left', 'number_format': '0f'}))
 
-    st.subheader("First 30 Books Data")
+    st.subheader("First 50 Books Data")
     st.dataframe(books_df)
 
 if __name__ == "__main__":

@@ -1,0 +1,504 @@
+{
+    "books": [
+        {
+            "Unnamed: 0": 0,
+            "Book": "To Kill a Mockingbird",
+            "Author": "Harper Lee",
+            "Description": "The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it. \"To Kill A Mockingbird\" became both an instant bestseller and a critical success when it was first published in 1960. It went on to win the Pulitzer Prize in 1961 and was later made into an Academy Award-winning film, also a classic.Compassionate, dramatic, and deeply moving, \"To Kill A Mockingbird\" takes readers to the roots of human behavior - to innocence and experience, kindness and cruelty, love and hatred, humor and pathos. Now with over 18 million copies in print and translated into forty languages, this regional story by a young Alabama woman claims universal appeal. Harper Lee always considered her book to be a simple love story. Today it is regarded as a masterpiece of American literature.",
+            "Genres": "['Classics', 'Fiction', 'Historical Fiction', 'School', 'Literature', 'Young Adult', 'Historical']",
+            "Avg_Rating": 4.27,
+            "Num_Ratings": "5,691,311",
+            "URL": "https://www.goodreads.com/book/show/2657.To_Kill_a_Mockingbird"
+        },
+        {
+            "Unnamed: 0": 1,
+            "Book": "Harry Potter and the Philosopher\u2019s Stone (Harry Potter, #1)",
+            "Author": "J.K. Rowling",
+            "Description": "Harry Potter thinks he is an ordinary boy - until he is rescued by an owl, taken to Hogwarts School of Witchcraft and Wizardry, learns to play Quidditch and does battle in a deadly duel. The Reason ... HARRY POTTER IS A WIZARD!",
+            "Genres": "['Fantasy', 'Fiction', 'Young Adult', 'Magic', 'Childrens', 'Middle Grade', 'Classics']",
+            "Avg_Rating": 4.47,
+            "Num_Ratings": "9,278,135",
+            "URL": "https://www.goodreads.com/book/show/72193.Harry_Potter_and_the_Philosopher_s_Stone"
+        },
+        {
+            "Unnamed: 0": 2,
+            "Book": "Pride and Prejudice",
+            "Author": "Jane Austen",
+            "Description": "Since its immediate success in 1813, Pride and Prejudice has remained one of the most popular novels in the English language. Jane Austen called this brilliant work \"her own darling child\" and its vivacious heroine, Elizabeth Bennet, \"as delightful a creature as ever appeared in print.\" The romantic clash between the opinionated Elizabeth and her proud beau, Mr. Darcy, is a splendid performance of civilized sparring. And Jane Austen's radiant wit sparkles as her characters dance a delicate quadrille of flirtation and intrigue, making this book the most superb comedy of manners of Regency England.Alternate cover edition of ISBN 9780679783268",
+            "Genres": "['Classics', 'Fiction', 'Romance', 'Historical Fiction', 'Literature', 'Historical', 'Audiobook']",
+            "Avg_Rating": 4.28,
+            "Num_Ratings": "3,944,155",
+            "URL": "https://www.goodreads.com/book/show/1885.Pride_and_Prejudice"
+        },
+        {
+            "Unnamed: 0": 3,
+            "Book": "The Diary of a Young Girl",
+            "Author": "Anne Frank",
+            "Description": "Discovered in the attic in which she spent the last years of her life, Anne Frank\u2019s remarkable diary has become a world classic\u2014a powerful reminder of the horrors of war and an eloquent testament to the human spirit. In 1942, with the Nazis occupying Holland, a thirteen-year-old Jewish girl and her family fled their home in Amsterdam and went into hiding. For the next two years, until their whereabouts were betrayed to the Gestapo, the Franks and another family lived cloistered in the \u201cSecret Annexe\u201d of an old office building. Cut off from the outside world, they faced hunger, boredom, the constant cruelties of living in confined quarters, and the ever-present threat of discovery and death. In her diary Anne Frank recorded vivid impressions of her experiences during this period. By turns thoughtful, moving, and surprisingly humorous, her account offers a fascinating commentary on human courage and frailty and a compelling self-portrait of a sensitive and spirited young woman whose promise was tragically cut short.--back cover",
+            "Genres": "['Classics', 'Nonfiction', 'History', 'Biography', 'Memoir', 'Historical', 'Holocaust']",
+            "Avg_Rating": 4.18,
+            "Num_Ratings": "3,488,438",
+            "URL": "https://www.goodreads.com/book/show/48855.The_Diary_of_a_Young_Girl"
+        },
+        {
+            "Unnamed: 0": 4,
+            "Book": "Animal Farm",
+            "Author": "George Orwell",
+            "Description": "Librarian's note: There is an Alternate Cover Edition for this edition of this book here.A farm is taken over by its overworked, mistreated animals. With flaming idealism and stirring slogans, they set out to create a paradise of progress, justice, and equality. Thus the stage is set for one of the most telling satiric fables ever penned \u2013a razor-edged fairy tale for grown-ups that records the evolution from revolution against tyranny to a totalitarianism just as terrible. When Animal Farm was first published, Stalinist Russia was seen as its target. Today it is devastatingly clear that wherever and whenever freedom is attacked, under whatever banner, the cutting clarity and savage comedy of George Orwell\u2019s masterpiece have a meaning and message still ferociously fresh.",
+            "Genres": "['Classics', 'Fiction', 'Dystopia', 'Fantasy', 'Politics', 'School', 'Literature']",
+            "Avg_Rating": 3.98,
+            "Num_Ratings": "3,575,172",
+            "URL": "https://www.goodreads.com/book/show/170448.Animal_Farm"
+        },
+        {
+            "Unnamed: 0": 5,
+            "Book": "The Little Prince",
+            "Author": "Antoine de Saint-Exup\u00e9ry",
+            "Description": "A pilot stranded in the desert awakes one morning to see, standing before him, the most extraordinary little fellow. \"Please,\" asks the stranger, \"draw me a sheep.\" And the pilot realizes that when life's events are too difficult to understand, there is no choice but to succumb to their mysteries. He pulls out pencil and paper... And thus begins this wise and enchanting fable that, in teaching the secret of what is really important in life, has changed forever the world for its readers.Few stories are as widely read and as universally cherished by children and adults alike as The Little Prince, presented here in a stunning new translation with carefully restored artwork. The definitive edition of a worldwide classic, it will capture the hearts of readers of all ages.",
+            "Genres": "['Classics', 'Fiction', 'Fantasy', 'Childrens', 'France', 'Philosophy', 'Young Adult']",
+            "Avg_Rating": 4.32,
+            "Num_Ratings": "1,924,063",
+            "URL": "https://www.goodreads.com/book/show/157993.The_Little_Prince"
+        },
+        {
+            "Unnamed: 0": 6,
+            "Book": "1984",
+            "Author": "George Orwell",
+            "Description": "The new novel by George Orwell is the major work towards which all his previous writing has pointed. Critics have hailed it as his \"most solid, most brilliant\" work. Though the story of Nineteen Eighty-Four takes place thirty-five years hence, it is in every sense timely. The scene is London, where there has been no new housing since 1950 and where the city-wide slums are called Victory Mansions. Science has abandoned Man for the State. As every citizen knows only too well, war is peace.To Winston Smith, a young man who works in the Ministry of Truth (Minitru for short), come two people who transform this life completely. One is Julia, whom he meets after she hands him a slip reading, \"I love you.\" The other is O'Brien, who tells him, \"We shall meet in the place where there is no darkness.\" The way in which Winston is betrayed by the one and, against his own desires and instincts, ultimately betrays the other, makes a story of mounting drama and suspense.Alternate cover edition can be found here.",
+            "Genres": "['Classics', 'Fiction', 'Science Fiction', 'Dystopia', 'Literature', 'Novels', 'Politics']",
+            "Avg_Rating": 4.19,
+            "Num_Ratings": "4,201,429",
+            "URL": "https://www.goodreads.com/book/show/61439040-1984"
+        },
+        {
+            "Unnamed: 0": 7,
+            "Book": "The Great Gatsby",
+            "Author": "F. Scott Fitzgerald",
+            "Description": "Alternate Cover Edition ISBN: 0743273567 (ISBN13: 9780743273565)The Great Gatsby, F. Scott Fitzgerald's third book, stands as the supreme achievement of his career. This exemplary novel of the Jazz Age has been acclaimed by generations of readers. The story of the fabulously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan, of lavish parties on Long Island at a time when The New York Times noted \"gin was the national drink and sex the national obsession,\" it is an exquisitely crafted tale of America in the 1920s.The Great Gatsby is one of the great classics of twentieth-century literature.(from the back cover)",
+            "Genres": "['Classics', 'Fiction', 'School', 'Historical Fiction', 'Literature', 'Romance', 'Novels']",
+            "Avg_Rating": 3.93,
+            "Num_Ratings": "4,839,642",
+            "URL": "https://www.goodreads.com/book/show/4671.The_Great_Gatsby"
+        },
+        {
+            "Unnamed: 0": 8,
+            "Book": "The Catcher in the Rye",
+            "Author": "J.D. Salinger",
+            "Description": "It's Christmas time and Holden Caulfield has just been expelled from yet another school...Fleeing the crooks at Pencey Prep, he pinballs around New York City seeking solace in fleeting encounters\u2014shooting the bull with strangers in dive hotels, wandering alone round Central Park, getting beaten up by pimps and cut down by erstwhile girlfriends. The city is beautiful and terrible, in all its neon loneliness and seedy glamour, its mingled sense of possibility and emptiness. Holden passes through it like a ghost, thinking always of his kid sister Phoebe, the only person who really understands him, and his determination to escape the phonies and find a life of true meaning.The Catcher in the Rye is an all-time classic in coming-of-age literature- an elegy to teenage alienation, capturing the deeply human need for connection and the bewildering sense of loss as we leave childhood behind.\nJ.D. Salinger's\n (1919\u20132010) classic novel of teenage angst and rebellion was first published in 1951. The novel was included on Time's 2005 list of the 100 best English-language novels written since 1923. It was named by Modern Library and its readers as one of the 100 best English-language novels of the 20th century. It has been frequently challenged in the court for its liberal use of profanity and portrayal of sexuality and in the 1950's and 60's it was the novel that every teenage boy wants to read.",
+            "Genres": "['Classics', 'Fiction', 'Young Adult', 'Literature', 'School', 'Novels', 'Coming Of Age']",
+            "Avg_Rating": 3.81,
+            "Num_Ratings": "3,315,881",
+            "URL": "https://www.goodreads.com/book/show/5107.The_Catcher_in_the_Rye"
+        },
+        {
+            "Unnamed: 0": 9,
+            "Book": "The Lord of the Rings",
+            "Author": "J.R.R. Tolkien",
+            "Description": "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind themIn ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, the Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others. But the One Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. After many ages it fell by chance into the hands of the hobbit Bilbo Baggins.From Sauron's fastness in the Dark Tower of Mordor, his power spread far and wide. Sauron gathered all the Great Rings to him, but always he searched for the One Ring that would complete his dominion.When Bilbo reached his eleventy-first birthday he disappeared, bequeathing to his young cousin Frodo the Ruling Ring and a perilous quest: to journey across Middle-earth, deep into the shadow of the Dark Lord, and destroy the Ring by casting it into the Cracks of Doom.The Lord of the Rings tells of the great quest undertaken by Frodo and the Fellowship of the Ring: Gandalf the Wizard; the hobbits Merry, Pippin, and Sam; Gimli the Dwarf; Legolas the Elf; Boromir of Gondor; and a tall, mysterious stranger called Strider.",
+            "Genres": "['Fantasy', 'Classics', 'Fiction', 'Adventure', 'Science Fiction Fantasy', 'Epic Fantasy', 'High Fantasy']",
+            "Avg_Rating": 4.52,
+            "Num_Ratings": "644,766",
+            "URL": "https://www.goodreads.com/book/show/33.The_Lord_of_the_Rings"
+        },
+        {
+            "Unnamed: 0": 10,
+            "Book": "The Book Thief",
+            "Author": "Markus Zusak",
+            "Description": "Librarian's note: An alternate cover edition can be found hereIt is 1939. Nazi Germany. The country is holding its breath. Death has never been busier, and will be busier still.By her brother's graveside, Liesel's life is changed when she picks up a single object, partially hidden in the snow. It is The Gravedigger's Handbook, left behind there by accident, and it is her first act of book thievery. So begins a love affair with books and words, as Liesel, with the help of her accordian-playing foster father, learns to read. Soon she is stealing books from Nazi book-burnings, the mayor's wife's library, wherever there are books to be found.But these are dangerous times. When Liesel's foster family hides a Jew in their basement, Liesel's world is both opened up, and closed down.In superbly crafted writing that burns with intensity, award-winning author Markus Zusak has given us one of the most enduring stories of our time.(Note: this title was not published as YA fiction)",
+            "Genres": "['Historical Fiction', 'Fiction', 'Young Adult', 'Historical', 'Classics', 'War', 'World War II']",
+            "Avg_Rating": 4.39,
+            "Num_Ratings": "2,364,659",
+            "URL": "https://www.goodreads.com/book/show/19063.The_Book_Thief"
+        },
+        {
+            "Unnamed: 0": 11,
+            "Book": "Jane Eyre",
+            "Author": "Charlotte Bront\u00eb",
+            "Description": "Orphaned as a child, Jane has felt an outcast her whole young life. Her courage is tested once again when she arrives at Thornfield Hall, where she has been hired by the brooding, proud Edward Rochester to care for his ward Ad\u00e8le. Jane finds herself drawn to his troubled yet kind spirit. She falls in love. Hard. But there is a terrifying secret inside the gloomy, forbidding Thornfield Hall. Is Rochester hiding from Jane? Will Jane be left heartbroken and exiled once again?",
+            "Genres": "['Classics', 'Fiction', 'Romance', 'Historical Fiction', 'Gothic', 'Literature', 'Historical']",
+            "Avg_Rating": 4.14,
+            "Num_Ratings": "1,975,582",
+            "URL": "https://www.goodreads.com/book/show/10210.Jane_Eyre"
+        },
+        {
+            "Unnamed: 0": 12,
+            "Book": "The Chronicles of Narnia (Chronicles of Narnia, #1-7)",
+            "Author": "C.S. Lewis",
+            "Description": "Librarian note: An alternate cover for this edition can be found here: 2005.Journeys to the end of the world, fantastic creatures, and epic battles between good and evil\u2014what more could any reader ask for in one book? The book that has it all is The Lion, the Witch and the Wardrobe, written in 1949 by Clive Staples Lewis. But Lewis did not stop there. Six more books followed, and together they became known as The Chronicles of Narnia.For the past fifty years, The Chronicles of Narnia have transcended the fantasy genre to become part of the canon of classic literature. Each of the seven books is a masterpiece, drawing the reader into a land where magic meets reality, and the result is a fictional world whose scope has fascinated generations.This edition presents all seven books\u2014unabridged\u2014in one impressive volume. The books are presented here in chronlogical order, each chapter graced with an illustration by the original artist, Pauline Baynes. Deceptively simple and direct, The Chronicles of Narnia continue to captivate fans with adventures, characters, and truths that speak to readers of all ages, even fifty years after they were first published.",
+            "Genres": "['Fantasy', 'Classics', 'Young Adult', 'Childrens', 'Christian', 'Adventure', 'Middle Grade']",
+            "Avg_Rating": 4.27,
+            "Num_Ratings": "617,006",
+            "URL": "https://www.goodreads.com/book/show/11127.The_Chronicles_of_Narnia"
+        },
+        {
+            "Unnamed: 0": 13,
+            "Book": "Lord of the Flies",
+            "Author": "William Golding",
+            "Description": "At the dawn of the next world war, a plane crashes on an uncharted island, stranding a group of schoolboys. At first, with no adult supervision, their freedom is something to celebrate; this far from civilization the boys can do anything they want. Anything. They attempt to forge their own society, failing, however, in the face of terror, sin and evil. And as order collapses, as strange howls echo in the night, as terror begins its reign, the hope of adventure seems as far from reality as the hope of being rescued. Labeled a parable, an allegory, a myth, a morality tale, a parody, a political treatise, even a vision of the apocalypse, Lord of the Flies is perhaps our most memorable novel about \u201cthe end of innocence, the darkness of man\u2019s heart.\u201d",
+            "Genres": "['Classics', 'Fiction', 'Young Adult', 'School', 'Literature', 'Dystopia', 'Read For School']",
+            "Avg_Rating": 3.69,
+            "Num_Ratings": "2,738,919",
+            "URL": "https://www.goodreads.com/book/show/7624.Lord_of_the_Flies"
+        },
+        {
+            "Unnamed: 0": 14,
+            "Book": "Romeo and Juliet",
+            "Author": "William Shakespeare",
+            "Description": "In Romeo and Juliet, Shakespeare creates a violent world, in which two young people fall in love. It is not simply that their families disapprove; the Montagues and the Capulets are engaged in a blood feud.In this death-filled setting, the movement from love at first sight to the lovers\u2019 final union in death seems almost inevitable. And yet, this play set in an extraordinary world has become the quintessential story of young love. In part because of its exquisite language, it is easy to respond as if it were about all young lovers.",
+            "Genres": "['Classics', 'Plays', 'Fiction', 'Romance', 'School', 'Drama', 'Read For School']",
+            "Avg_Rating": 3.74,
+            "Num_Ratings": "2,469,086",
+            "URL": "https://www.goodreads.com/book/show/18135.Romeo_and_Juliet"
+        },
+        {
+            "Unnamed: 0": 15,
+            "Book": "Harry Potter and the Deathly Hallows (Harry Potter, #7)",
+            "Author": "J.K. Rowling",
+            "Description": "Harry has been burdened with a dark, dangerous and seemingly impossible task: that of locating and destroying Voldemort's remaining Horcruxes. Never has Harry felt so alone, or faced a future so full of shadows. But Harry must somehow find within himself the strength to complete the task he has been given. He must leave the warmth, safety and companionship of The Burrow and follow without fear or hesitation the inexorable path laid out for him...In this final, seventh installment of the Harry Potter series, J.K. Rowling unveils in spectacular fashion the answers to the many questions that have been so eagerly awaited.",
+            "Genres": "['Fantasy', 'Young Adult', 'Fiction', 'Magic', 'Childrens', 'Adventure', 'Audiobook']",
+            "Avg_Rating": 4.62,
+            "Num_Ratings": "3,468,276",
+            "URL": "https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows"
+        },
+        {
+            "Unnamed: 0": 16,
+            "Book": "The Kite Runner",
+            "Author": "Khaled Hosseini",
+            "Description": "1970s Afghanistan: Twelve-year-old Amir is desperate to win the local kite-fighting tournament and his loyal friend Hassan promises to help him. But neither of the boys can foresee what would happen to Hassan that afternoon, an event that is to shatter their lives. After the Russians invade and the family is forced to flee to America, Amir realises that one day he must return to an Afghanistan under Taliban rule to find the one thing that his new world cannot grant him: redemption.",
+            "Genres": "['Fiction', 'Historical Fiction', 'Classics', 'Contemporary', 'Novels', 'Historical', 'Literature']",
+            "Avg_Rating": 4.33,
+            "Num_Ratings": "2,954,721",
+            "URL": "https://www.goodreads.com/book/show/77203.The_Kite_Runner"
+        },
+        {
+            "Unnamed: 0": 17,
+            "Book": "The Giver (The Giver, #1)",
+            "Author": "Lois Lowry",
+            "Description": "At the age of twelve, Jonas, a young boy from a seemingly utopian, futuristic world, is singled out to receive special training from The Giver, who alone holds the memories of the true joys and pain of life.",
+            "Genres": "['Young Adult', 'Fiction', 'Classics', 'Dystopia', 'Science Fiction', 'Fantasy', 'School']",
+            "Avg_Rating": 4.12,
+            "Num_Ratings": "2,285,401",
+            "URL": "https://www.goodreads.com/book/show/3636.The_Giver"
+        },
+        {
+            "Unnamed: 0": 18,
+            "Book": "The Giving Tree",
+            "Author": "Shel Silverstein",
+            "Description": "\"Once there was a tree...and she loved a little boy.\"So begins a story of unforgettable perception, beautifully written and illustrated by the gifted and versatile Shel Silverstein.Every day the boy would come to the tree to eat her apples, swing from her branches, or slide down her trunk...and the tree was happy. But as the boy grew older he began to want more from the tree, and the tree gave and gave and gave.This is a tender story, touched with sadness, aglow with consolation. Shel Silverstein has created a moving parable for readers of all ages that offers an affecting interpretation of the gift of giving and a serene acceptance of another's capacity to love in return.",
+            "Genres": "['Childrens', 'Fiction', 'Picture Books', 'Classics', 'Poetry', 'Young Adult', 'Fantasy']",
+            "Avg_Rating": 4.38,
+            "Num_Ratings": "1,067,524",
+            "URL": "https://www.goodreads.com/book/show/370493.The_Giving_Tree"
+        },
+        {
+            "Unnamed: 0": 19,
+            "Book": "Charlotte's Web",
+            "Author": "E.B. White",
+            "Description": "This beloved book by E. B. White, author of Stuart Little and The Trumpet of the Swan, is a classic of children's literature that is \"just about perfect.\" This high-quality paperback features vibrant illustrations colorized by Rosemary Wells!Some Pig. Humble. Radiant. These are the words in Charlotte's Web, high up in Zuckerman's barn. Charlotte's spiderweb tells of her feelings for a little pig named Wilbur, who simply wants a friend. They also express the love of a girl named Fern, who saved Wilbur's life when he was born the runt of his litter.E. B. White's Newbery Honor Book is a tender novel of friendship, love, life, and death that will continue to be enjoyed by generations to come. This edition contains newly color illustrations by Garth Williams, the acclaimed illustrator of E. B. White's Stuart Little and Laura Ingalls Wilder's Little House series, among many other books.",
+            "Genres": "['Classics', 'Fiction', 'Childrens', 'Fantasy', 'Young Adult', 'Middle Grade', 'Animals']",
+            "Avg_Rating": 4.19,
+            "Num_Ratings": "1,724,889",
+            "URL": "https://www.goodreads.com/book/show/24178.Charlotte_s_Web"
+        },
+        {
+            "Unnamed: 0": 20,
+            "Book": "Little Women",
+            "Author": "Louisa May Alcott",
+            "Description": "This is an alternate cover edition of ISBN 9780451529305.Generations of readers young and old, male and female, have fallen in love with the March sisters of Louisa May Alcott\u2019s most popular and enduring novel, Little Women. Here are talented tomboy and author-to-be Jo, tragically frail Beth, beautiful Meg, and romantic, spoiled Amy, united in their devotion to each other and their struggles to survive in New England during the Civil War.It is no secret that Alcott based Little Women on her own early life. While her father, the freethinking reformer and abolitionist Bronson Alcott, hobnobbed with such eminent male authors as Emerson, Thoreau, and Hawthorne, Louisa supported herself and her sisters with \"woman\u2019s work,\u201d including sewing, doing laundry, and acting as a domestic servant. But she soon discovered she could make more money writing. Little Women brought her lasting fame and fortune, and far from being the \"girl\u2019s book\u201d her publisher requested, it explores such timeless themes as love and death, war and peace, the conflict between personal ambition and family responsibilities, and the clash of cultures between Europe and America.",
+            "Genres": "['Classics', 'Fiction', 'Historical Fiction', 'Young Adult', 'Romance', 'Historical', 'Literature']",
+            "Avg_Rating": 4.14,
+            "Num_Ratings": "2,085,559",
+            "URL": "https://www.goodreads.com/book/show/1934.Little_Women"
+        },
+        {
+            "Unnamed: 0": 21,
+            "Book": "The Hunger Games (The Hunger Games, #1)",
+            "Author": "Suzanne Collins",
+            "Description": "Could you survive on your own in the wild, with every one out to make sure you don't live to see the morning?In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. The Capitol is harsh and cruel and keeps the districts in line by forcing them all to send one boy and one girl between the ages of twelve and eighteen to participate in the annual Hunger Games, a fight to the death on live TV.Sixteen-year-old Katniss Everdeen, who lives alone with her mother and younger sister, regards it as a death sentence when she steps forward to take her sister's place in the Games. But Katniss has been close to dead before\u2014and survival, for her, is second nature. Without really meaning to, she becomes a contender. But if she is to win, she will have to start making choices that weight survival against humanity and life against love.",
+            "Genres": "['Young Adult', 'Fiction', 'Dystopia', 'Fantasy', 'Science Fiction', 'Romance', 'Adventure']",
+            "Avg_Rating": 4.33,
+            "Num_Ratings": "7,963,002",
+            "URL": "https://www.goodreads.com/book/show/2767052-the-hunger-games"
+        },
+        {
+            "Unnamed: 0": 22,
+            "Book": "The Hobbit (The Lord of the Rings, #0)",
+            "Author": "J.R.R. Tolkien",
+            "Description": "In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort.Written for J.R.R. Tolkien\u2019s own children, The Hobbit met with instant critical acclaim when it was first published in 1937. Now recognized as a timeless classic, this introduction to the hobbit Bilbo Baggins, the wizard Gandalf, Gollum, and the spectacular world of Middle-earth recounts of the adventures of a reluctant hero, a powerful and dangerous ring, and the cruel dragon Smaug the Magnificent. The text in this 372-page paperback edition is based on that first published in Great Britain by Collins Modern Classics (1998), and includes a note on the text by Douglas A. Anderson (2001).",
+            "Genres": "['Fantasy', 'Classics', 'Fiction', 'Adventure', 'Young Adult', 'Science Fiction Fantasy', 'High Fantasy']",
+            "Avg_Rating": 4.28,
+            "Num_Ratings": "3,662,325",
+            "URL": "https://www.goodreads.com/book/show/5907.The_Hobbit"
+        },
+        {
+            "Unnamed: 0": 23,
+            "Book": "Of Mice and Men",
+            "Author": "John Steinbeck",
+            "Description": "\n\u201cI got you to look after me, and you got me to look after you, and that'swhy.\u201d\nThey are an unlikely pair: George is \"small and quick and dark of face\"; Lennie, a man of tremendous size, has the mind of a young child. Yet they have formed a \"family,\" clinging together in the face of loneliness and alienation. Laborers in California's dusty vegetable fields, they hustle work when they can, living a hand-to-mouth existence. But George and Lennie have a plan: to own an acre of land and a shack they can call their own.While the powerlessness of the laboring class is a recurring theme in Steinbeck's work of the late 1930s, he narrowed his focus when composing 'Of Mice and Men' (1937), creating an intimate portrait of two men facing a world marked by petty tyranny, misunderstanding, jealousy, and callousness. But though the scope is narrow, the theme is universal: a friendship and a shared dream that makes an individual's existence meaningful.A unique perspective on life's hardships, this story has achieved the status of timeless classic due to its remarkable success as a novel, a Broadway play, and three acclaimed films.",
+            "Genres": "['Classics', 'Fiction', 'School', 'Historical Fiction', 'Literature', 'Read For School', 'Novels']",
+            "Avg_Rating": 3.88,
+            "Num_Ratings": "2,396,235",
+            "URL": "https://www.goodreads.com/book/show/890.Of_Mice_and_Men"
+        },
+        {
+            "Unnamed: 0": 24,
+            "Book": "Fahrenheit 451",
+            "Author": "Ray Bradbury",
+            "Description": "Sixty years after its original publication, Ray Bradbury\u2019s internationally acclaimed novel Fahrenheit 451 stands as a classic of world literature set in a bleak, dystopian future. Today its message has grown more relevant than ever before.Guy Montag is a fireman. His job is to destroy the most illegal of commodities, the printed book, along with the houses in which they are hidden. Montag never questions the destruction and ruin his actions produce, returning each day to his bland life and wife, Mildred, who spends all day with her television \u201cfamily.\u201d But when he meets an eccentric young neighbor, Clarisse, who introduces him to a past where people didn\u2019t live in fear and to a present where one sees the world through the ideas in books instead of the mindless chatter of television, Montag begins to question everything he has ever known.",
+            "Genres": "['Classics', 'Fiction', 'Science Fiction', 'Dystopia', 'School', 'Literature', 'Novels']",
+            "Avg_Rating": 3.97,
+            "Num_Ratings": "2,215,889",
+            "URL": "https://www.goodreads.com/book/show/13079982-fahrenheit-451"
+        },
+        {
+            "Unnamed: 0": 25,
+            "Book": "Green Eggs and Ham",
+            "Author": "Dr. Seuss",
+            "Description": "\u201cDo you like green eggs and ham?\u201d asks Sam-I-am in this Beginner Book by Dr. Seuss. In a house or with a mouse? In a boat or with a goat? On a train or in a tree? Sam keeps asking persistently. With unmistakable characters and signature rhymes, Dr. Seuss\u2019s beloved favorite has cemented its place as a children\u2019s classic. In this most famous of cumulative tales, the list of places to enjoy green eggs and ham, and friends to enjoy them with, gets longer and longer. Follow Sam-I-am as he insists that this unusual treat is indeed a delectable snack to be savored everywhere and in every way. Originally created by Dr. Seuss, Beginner Books encourage children to read all by themselves, with simple words and illustrations that give clues to their meaning.",
+            "Genres": "['Childrens', 'Picture Books', 'Fiction', 'Classics', 'Poetry', 'Fantasy', 'Humor']",
+            "Avg_Rating": 4.3,
+            "Num_Ratings": "735,514",
+            "URL": "https://www.goodreads.com/book/show/23772.Green_Eggs_and_Ham"
+        },
+        {
+            "Unnamed: 0": 26,
+            "Book": "Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)",
+            "Author": "J.K. Rowling",
+            "Description": "Harry Potter, along with his best friends, Ron and Hermione, is about to start his third year at Hogwarts School of Witchcraft and Wizardry. Harry can't wait to get back to school after the summer holidays. (Who wouldn't if they lived with the horrible Dursleys?) But when Harry gets to Hogwarts, the atmosphere is tense. There's an escaped mass murderer on the loose, and the sinister prison guards of Azkaban have been called in to guard the school...",
+            "Genres": "['Fantasy', 'Fiction', 'Young Adult', 'Magic', 'Childrens', 'Middle Grade', 'Audiobook']",
+            "Avg_Rating": 4.58,
+            "Num_Ratings": "3,808,160",
+            "URL": "https://www.goodreads.com/book/show/5.Harry_Potter_and_the_Prisoner_of_Azkaban"
+        },
+        {
+            "Unnamed: 0": 27,
+            "Book": "Wuthering Heights",
+            "Author": "Emily Bront\u00eb",
+            "Description": "You can find the redesigned cover of this edition HERE.At the centre of this novel is the passionate love between Catherine Earnshaw and Heathcliff - recounted with such emotional intensity that a plain tale of the Yorkshire moors acquires the depth and simplicity of ancient tragedy.This best-selling Norton Critical Edition is based on the 1847 first edition of the novel. For the Fourth Edition, the editor has collated the 1847 text with several modern editions and has corrected a number of variants, including accidentals. The text is accompanied by entirely new explanatory annotations.New to the fourth Edition are twelve of Emily Bronte's letters regarding the publication of the 1847 edition of Wuthering Heights as well as the evolution of the 1850 edition, prose and poetry selections by the author, four reviews of the novel, and poetry selections by the author, four reviews of the novel, and Edward Chitham's insightful and informative chronology of the creative process behind the beloved work.Five major critical interpretations of Wuthering Heights are included, three of them new to the Fourth Edition. A Stuart Daley considers the importance of chronology in the novel. J. Hillis Miller examines Wuthering Heights's problems of genre and critical reputation. Sandra M. Gilbert assesses the role of Victorian Christianity plays in the novel, while Martha Nussbaum traces the novel's romanticism. Finally, Lin Haire-Sargeant scrutinizes the role of Heathcliff in film adaptations of Wuthering Heights. A Chronology and updated Selected Bibliography are also included.",
+            "Genres": "['Classics', 'Fiction', 'Romance', 'Gothic', 'Historical Fiction', 'Literature', '19th Century']",
+            "Avg_Rating": 3.88,
+            "Num_Ratings": "1,684,275",
+            "URL": "https://www.goodreads.com/book/show/6185.Wuthering_Heights"
+        },
+        {
+            "Unnamed: 0": 28,
+            "Book": "Alice's Adventures in Wonderland / Through the Looking-Glass",
+            "Author": "Lewis Carroll",
+            "Description": "\"I can't explain myself, I'm afraid, sir,\" said Alice, \"Because I'm not myself, you see.\"When Alice sees a white rabbit take a watch out of its waistcoat pocket she decides to follow it, and a sequence of most unusual events is set in motion. This mini book contains the entire topsy-turvy stories of Alice's Adventures in Wonderland and Through the Looking-Glass, accompanied by practical notes and Martina Pelouso's memorable full-colour illustrations.",
+            "Genres": "['Classics', 'Fantasy', 'Fiction', 'Childrens', 'Young Adult', 'Literature', 'Adventure']",
+            "Avg_Rating": 4.06,
+            "Num_Ratings": "536,708",
+            "URL": "https://www.goodreads.com/book/show/24213.Alice_s_Adventures_in_Wonderland_Through_the_Looking_Glass"
+        },
+        {
+            "Unnamed: 0": 29,
+            "Book": "The Picture of Dorian Gray",
+            "Author": "Oscar Wilde",
+            "Description": "Oscar Wilde\u2019s only novel is the dreamlike story of a young man who sells his soul for eternal youth and beauty.In this celebrated work Wilde forged a devastating portrait of the effects of evil and debauchery on a young aesthete in late-19th-century England. Combining elements of the Gothic horror novel and decadent French fiction, the book centers on a striking premise: As Dorian Gray sinks into a life of crime and gross sensuality, his body retains perfect youth and vigor while his recently painted portrait grows day by day into a hideous record of evil, which he must keep hidden from the world. For over a century, this mesmerizing tale of horror and suspense has enjoyed wide popularity. It ranks as one of Wilde's most important creations and among the classic achievements of its kind.",
+            "Genres": "['Classics', 'Fiction', 'Horror', 'Fantasy', 'Gothic', 'Literature', 'Novels']",
+            "Avg_Rating": 4.12,
+            "Num_Ratings": "1,370,605",
+            "URL": "https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray"
+        },
+        {
+            "Unnamed: 0": 30,
+            "Book": "Night  (The Night Trilogy, #1)",
+            "Author": "Elie Wiesel",
+            "Description": "Born in the town of Sighet, Transylvania, Elie Wiesel was a teenager when he and his family were taken from their home in 1944 to Auschwitz concentration camp, and then to Buchenwald. Night is the terrifying record of Elie Wiesel's memories of the death of his family, the death of his own innocence, and his despair as a deeply observant Jew confronting the absolute evil of man. This new translation by his wife and most frequent translator, Marion Wiesel, corrects important details and presents the most accurate rendering in English of Elie Wiesel's testimony to what happened in the camps and of his unforgettable message that this horror must simply never be allowed to happen again.",
+            "Genres": "['Nonfiction', 'Classics', 'History', 'Memoir', 'Holocaust', 'Biography', 'School']",
+            "Avg_Rating": 4.36,
+            "Num_Ratings": "1,170,381",
+            "URL": "https://www.goodreads.com/book/show/1617.Night"
+        },
+        {
+            "Unnamed: 0": 31,
+            "Book": "Gone with the Wind",
+            "Author": "Margaret Mitchell",
+            "Description": "Scarlett O'Hara, the beautiful, spoiled daughter of a well-to-do Georgia plantation owner, must use every means at her disposal to claw her way out of the poverty she finds herself in after Sherman's March to the Sea.",
+            "Genres": "['Classics', 'Historical Fiction', 'Fiction', 'Romance', 'Historical', 'War', 'Literature']",
+            "Avg_Rating": 4.3,
+            "Num_Ratings": "1,179,002",
+            "URL": "https://www.goodreads.com/book/show/18405.Gone_with_the_Wind"
+        },
+        {
+            "Unnamed: 0": 32,
+            "Book": "The Holy Bible: King James Version",
+            "Author": "Anonymous",
+            "Description": "An Award or Presentation Bible in the King James Version: ideal as a gift or to keep The full text of the Popular size King James or Authorized Version Bible, in a straightforward black imitation leather hardback binding.",
+            "Genres": "['Religion', 'Classics', 'Nonfiction', 'Christian', 'Philosophy', 'History', 'Christianity']",
+            "Avg_Rating": 4.43,
+            "Num_Ratings": "272,793",
+            "URL": "https://www.goodreads.com/book/show/1923820.The_Holy_Bible"
+        },
+        {
+            "Unnamed: 0": 33,
+            "Book": "Harry Potter and the Goblet of Fire (Harry Potter, #4)",
+            "Author": "J.K. Rowling",
+            "Description": "It is the summer holidays and soon Harry Potter will be starting his fourth year at Hogwarts School of Witchcraft and Wizardry. Harry is counting the days: there are new spells to be learnt, more Quidditch to be played, and Hogwarts castle to continue exploring. But Harry needs to be careful - there are unexpected dangers lurking...",
+            "Genres": "['Fantasy', 'Young Adult', 'Fiction', 'Magic', 'Childrens', 'Middle Grade', 'Audiobook']",
+            "Avg_Rating": 4.56,
+            "Num_Ratings": "3,397,378",
+            "URL": "https://www.goodreads.com/book/show/6.Harry_Potter_and_the_Goblet_of_Fire"
+        },
+        {
+            "Unnamed: 0": 34,
+            "Book": "The Hitchhiker's Guide to the Galaxy (The Hitchhiker's Guide to the Galaxy, #1)",
+            "Author": "Douglas Adams",
+            "Description": "Seconds before the Earth is demolished to make way for a galactic freeway, Arthur Dent is plucked off the planet by his friend Ford Prefect, a researcher for the revised edition of The Hitchhiker's Guide to the Galaxy who, for the last fifteen years, has been posing as an out-of-work actor.Together this dynamic pair begin a journey through space aided by quotes from The Hitchhiker's Guide (\"A towel is about the most massively useful thing an interstellar hitchhiker can have\") and a galaxy-full of fellow travelers: Zaphod Beeblebrox--the two-headed, three-armed ex-hippie and totally out-to-lunch president of the galaxy; Trillian, Zaphod's girlfriend (formally Tricia McMillan), whom Arthur tried to pick up at a cocktail party once upon a time zone; Marvin, a paranoid, brilliant, and chronically depressed robot; Veet Voojagig, a former graduate student who is obsessed with the disappearance of all the ballpoint pens he bought over the years.Where are these pens? Why are we born? Why do we die? Why do we spend so much time between wearing digital watches? For all the answers stick your thumb to the stars. And don't forget to bring a towel!",
+            "Genres": "['Science Fiction', 'Fiction', 'Humor', 'Classics', 'Fantasy', 'Comedy', 'Science Fiction Fantasy']",
+            "Avg_Rating": 4.23,
+            "Num_Ratings": "1,739,532",
+            "URL": "https://www.goodreads.com/book/show/386162.The_Hitchhiker_s_Guide_to_the_Galaxy"
+        },
+        {
+            "Unnamed: 0": 35,
+            "Book": "Hamlet",
+            "Author": "William Shakespeare",
+            "Description": "Among Shakespeare's plays, \"Hamlet\" is considered by many his masterpiece. Among actors, the role of Hamlet, Prince of Denmark, is considered the jewel in the crown of a triumphant theatrical career. Now Kenneth Branagh plays the leading role and co-directs a brillant ensemble performance. Three generations of legendary leading actors, many of whom first assembled for the Oscar-winning film \"Henry V\", gather here to perform the rarely heard complete version of the play. This clear, subtly nuanced, stunning dramatization, presented by The Renaissance Theatre Company in association with \"Bbc\" Broadcasting, features such luminaries as Sir John Gielgud, Derek Jacobi, Emma Thompson and Christopher Ravenscroft. It combines a full cast with stirring music and sound effects to bring this magnificent Shakespearen classic vividly to life. Revealing new riches with each listening, this production of \"Hamlet\" is an invaluable aid for students, teachers and all true lovers of Shakespeare - a recording to be treasured for decades to come.",
+            "Genres": "['Classics', 'Plays', 'Fiction', 'Drama', 'School', 'Literature', 'Theatre']",
+            "Avg_Rating": 4.02,
+            "Num_Ratings": "890,747",
+            "URL": "https://www.goodreads.com/book/show/1420.Hamlet"
+        },
+        {
+            "Unnamed: 0": 36,
+            "Book": "Harry Potter and the Half-Blood Prince (Harry Potter, #6)",
+            "Author": "J.K. Rowling",
+            "Description": "It is the middle of the summer, but there is an unseasonal mist pressing against the windowpanes. Harry Potter is waiting nervously in his bedroom at the Dursleys' house in Privet Drive for a visit from Professor Dumbledore himself. One of the last times he saw the Headmaster was in a fierce one-to-one duel with Lord Voldemort, and Harry can't quite believe that Professor Dumbledore will actually appear at the Dursleys' of all places. Why is the Professor coming to visit him now? What is it that cannot wait until Harry returns to Hogwarts in a few weeks' time? Harry's sixth year at Hogwarts has already got off to an unusual start, as the worlds of Muggle and magic start to intertwine...",
+            "Genres": "['Fantasy', 'Young Adult', 'Fiction', 'Magic', 'Childrens', 'Adventure', 'Audiobook']",
+            "Avg_Rating": 4.58,
+            "Num_Ratings": "3,048,651",
+            "URL": "https://www.goodreads.com/book/show/1.Harry_Potter_and_the_Half_Blood_Prince"
+        },
+        {
+            "Unnamed: 0": 37,
+            "Book": "The Adventures of Huckleberry Finn",
+            "Author": "Mark Twain",
+            "Description": "A nineteenth-century boy from a Mississippi River town recounts his adventures as he travels down the river with a runaway slave, encountering a family involved in a feud, two scoundrels pretending to be royalty, and Tom Sawyer's aunt who mistakes him for Tom.",
+            "Genres": "['Classics', 'Fiction', 'Historical Fiction', 'Literature', 'Young Adult', 'Adventure', 'School']",
+            "Avg_Rating": 3.83,
+            "Num_Ratings": "1,237,071",
+            "URL": "https://www.goodreads.com/book/show/2956.The_Adventures_of_Huckleberry_Finn"
+        },
+        {
+            "Unnamed: 0": 38,
+            "Book": "Tolkien On Fairy-stories",
+            "Author": "J.R.R. Tolkien",
+            "Description": "J.R.R. Tolkien's \nOn Fairy-stories\n is his most-studied and most-quoted essay, an exemplary personal statement of his own views on the role of imagination in literature, and an intellectual tour de force vital for understanding Tolkien's achievement in writing \nThe Lord of the Rings\n.Contained within is an introduction to Tolkien's original 1939 lecture and the history of the writing of On Fairy-stories, with previously unseen material. Here, at last, Flieger and Anderson reveal the extraordinary genesis of this seminal work and discuss how the conclusions that Tolkien reached during the composition of the essay would shape his writing for the rest of his life.",
+            "Genres": "['Fantasy', 'Classics', 'Essays', 'Fiction', 'Fairy Tales', 'Literary Criticism', 'Writing']",
+            "Avg_Rating": 4.32,
+            "Num_Ratings": "3,744",
+            "URL": "https://www.goodreads.com/book/show/1362112.Tolkien_On_Fairy_stories"
+        },
+        {
+            "Unnamed: 0": 39,
+            "Book": "Les Mis\u00e9rables",
+            "Author": "Victor Hugo",
+            "Description": "Victor Hugo's tale of injustice, heroism and love follows the fortunes of Jean Valjean, an escaped convict determined to put his criminal past behind him. But his attempts to become a respected member of the community are constantly put under threat: by his own conscience, when, owing to a case of mistaken identity, another man is arrested in his place; and by the relentless investigations of the dogged Inspector Javert. It is not simply for himself that Valjean must stay free, however, for he has sworn to protect the baby daughter of Fantine, driven to prostitution by poverty.",
+            "Genres": "['Classics', 'Fiction', 'Historical Fiction', 'Literature', 'France', 'Historical', 'Novels']",
+            "Avg_Rating": 4.2,
+            "Num_Ratings": "769,757",
+            "URL": "https://www.goodreads.com/book/show/24280.Les_Mis_rables"
+        },
+        {
+            "Unnamed: 0": 40,
+            "Book": "The Alchemist",
+            "Author": "Paulo Coelho",
+            "Description": "Combining magic, mysticism, wisdom, and wonder into an inspiring tale of self-discovery, The Alchemist has become a modern classic, selling millions of copies around the world and transforming the lives of countless readers across generations.Paulo Coelho's masterpiece tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure. His quest will lead him to riches far different\u2014and far more satisfying\u2014than he ever imagined. Santiago's journey teaches us about the essential wisdom of listening to our hearts, recognizing opportunity and learning to read the omens strewn along life's path, and, most importantly, following our dreams.",
+            "Genres": "['Fiction', 'Classics', 'Fantasy', 'Philosophy', 'Novels', 'Spirituality', 'Self Help']",
+            "Avg_Rating": 3.9,
+            "Num_Ratings": "2,792,673",
+            "URL": "https://www.goodreads.com/book/show/18144590-the-alchemist"
+        },
+        {
+            "Unnamed: 0": 41,
+            "Book": "Brave New World / Brave New World Revisited",
+            "Author": "Aldous Huxley",
+            "Description": "The astonishing novel Brave New World, originally published in 1932, presents Aldous Huxley's vision of the future--of a world utterly transformed. Through the most efficient scientific and psychological engineering, people are genetically designed to be passive and therefore consistently useful to the ruling class. This powerful work of speculative fiction sheds a blazing critical light on the present and is considered to be Aldous Huxley's most enduring masterpiece.The non-fiction work Brave New World Revisited, published in 1958, is a fascinating work in which Huxley uses his tremendous knowledge of human relations to compare the modern-day world with his prophetic fantasy envisioned in Brave New World, including the threats to humanity, such as over-population, propaganda, and chemical persuasion.",
+            "Genres": "['Classics', 'Fiction', 'Science Fiction', 'Dystopia', 'Literature', 'Novels', 'Fantasy']",
+            "Avg_Rating": 4.16,
+            "Num_Ratings": "159,408",
+            "URL": "https://www.goodreads.com/book/show/5479.Brave_New_World_Brave_New_World_Revisited"
+        },
+        {
+            "Unnamed: 0": 42,
+            "Book": "Crime and Punishment",
+            "Author": "Fyodor Dostoevsky",
+            "Description": "Raskolnikov, a destitute and desperate former student, wanders through the slums of St Petersburg and commits a random murder without remorse or regret. He imagines himself to be a great man, a Napoleon: acting for a higher purpose beyond conventional moral law. But as he embarks on a dangerous game of cat and mouse with a suspicious police investigator, Raskolnikov is pursued by the growing voice of his conscience and finds the noose of his own guilt tightening around his neck. Only Sonya, a downtrodden sex worker, can offer the chance of redemption.",
+            "Genres": "['Classics', 'Fiction', 'Russia', 'Literature', 'Russian Literature', 'Philosophy', 'Novels']",
+            "Avg_Rating": 4.26,
+            "Num_Ratings": "820,645",
+            "URL": "https://www.goodreads.com/book/show/7144.Crime_and_Punishment"
+        },
+        {
+            "Unnamed: 0": 43,
+            "Book": "The Help",
+            "Author": "Kathryn Stockett",
+            "Description": "Three ordinary women are about to take one extraordinary step.Twenty-two-year-old Skeeter has just returned home after graduating from Ole Miss. She may have a degree, but it is 1962, Mississippi, and her mother will not be happy till Skeeter has a ring on her finger. Skeeter would normally find solace with her beloved maid Constantine, the woman who raised her, but Constantine has disappeared and no one will tell Skeeter where she has gone.Aibileen is a black maid, a wise, regal woman raising her seventeenth white child. Something has shifted inside her after the loss of her own son, who died while his bosses looked the other way. She is devoted to the little girl she looks after, though she knows both their hearts may be broken.Minny, Aibileen's best friend, is short, fat, and perhaps the sassiest woman in Mississippi. She can cook like nobody's business, but she can't mind her tongue, so she's lost yet another job. Minny finally finds a position working for someone too new to town to know her reputation. But her new boss has secrets of her own.Seemingly as different from one another as can be, these women will nonetheless come together for a clandestine project that will put them all at risk. And why? Because they are suffocating within the lines that define their town and their times. And sometimes lines are made to be crossed.In pitch-perfect voices, Kathryn Stockett creates three extraordinary women whose determination to start a movement of their own forever changes a town, and the way women, mothers, daughters, caregivers, friends, view one another. A deeply moving novel filled with poignancy, humor, and hope, The Help is a timeless and universal story about the lines we abide by, and the ones we don't. Librarian's note: An alternate cover edition can be found here",
+            "Genres": "['Fiction', 'Historical Fiction', 'Historical', 'Adult', 'Adult Fiction', 'Classics', 'Contemporary']",
+            "Avg_Rating": 4.47,
+            "Num_Ratings": "2,600,987",
+            "URL": "https://www.goodreads.com/book/show/4667024-the-help"
+        },
+        {
+            "Unnamed: 0": 44,
+            "Book": "The Secret Garden",
+            "Author": "Frances Hodgson Burnett",
+            "Description": "When orphaned Mary Lennox comes to live at her uncle's great house on the Yorkshire Moors, she finds it full of secrets. The mansion has nearly one hundred rooms, and her uncle keeps himself locked up. And at night, she hears the sound of crying down one of the long corridors. The gardens surrounding the large property are Mary's only escape. Then, Mary discovers a secret garden, surrounded by walls and locked with a missing key. One day, with the help of two unexpected companions, she discovers a way in. Is everything in the garden dead, or can Mary bring it back to life?One of the most delightful and enduring classics of children's literature, The Secret Garden has remained a firm favorite with children the world over ever since it made its first appearance. Initially published as a serial story in 1910 in The American Magazine, it was brought out in novel form in 1911.",
+            "Genres": "['Classics', 'Fiction', 'Childrens', 'Young Adult', 'Historical Fiction', 'Middle Grade', 'Fantasy']",
+            "Avg_Rating": 4.15,
+            "Num_Ratings": "1,097,941",
+            "URL": "https://www.goodreads.com/book/show/2998.The_Secret_Garden"
+        },
+        {
+            "Unnamed: 0": 45,
+            "Book": "Memoirs of a Geisha",
+            "Author": "Arthur Golden",
+            "Description": "A literary sensation and runaway bestseller, this brilliant novel presents with seamless authenticity and exquisite lyricism the true confessions of one of Japan's most celebrated geisha.In \"Memoirs of a Geisha,\" we enter a world where appearances are paramount; where a girl's virginity is auctioned to the highest bidder; where women are trained to beguile the most powerful men; and where love is scorned as illusion. It is a unique and triumphant work of fiction - at once romantic, erotic, suspenseful - and completely unforgettable.",
+            "Genres": "['Fiction', 'Historical Fiction', 'Romance', 'Historical', 'Classics', 'Japan', 'Adult']",
+            "Avg_Rating": 4.14,
+            "Num_Ratings": "1,929,777",
+            "URL": "https://www.goodreads.com/book/show/929.Memoirs_of_a_Geisha"
+        },
+        {
+            "Unnamed: 0": 46,
+            "Book": "The Lion, the Witch and the Wardrobe (Chronicles of Narnia, #1)",
+            "Author": "C.S. Lewis",
+            "Description": "Narnia\u2026 the land beyond the wardrobe door, a secret place frozen in eternal winter, a magical country waiting to be set free.Lucy is the first to find the secret of the wardrobe in the professor's mysterious old house. At first her brothers and sister don't believe her when she tells of her visit to the land of Narnia. But soon Edmund, then Peter and Susan step through the wardrobe themselves. In Narnia they find a country buried under the evil enchantment of the White Witch. When they meet the Lion Aslan, they realize they've been called to a great adventure and bravely join the battle to free Narnia from the Witch's sinister spell.",
+            "Genres": "['Fantasy', 'Classics', 'Fiction', 'Young Adult', 'Childrens', 'Middle Grade', 'Adventure']",
+            "Avg_Rating": 4.23,
+            "Num_Ratings": "2,620,424",
+            "URL": "https://www.goodreads.com/book/show/100915.The_Lion_the_Witch_and_the_Wardrobe"
+        },
+        {
+            "Unnamed: 0": 47,
+            "Book": "The Odyssey",
+            "Author": "Homer",
+            "Description": "Sing to me of the man, Muse, the man of twists and turnsdriven time and again off course, once he had plunderedthe hallowed heights of Troy.So begins Robert Fagles' magnificent translation of the Odyssey.If the Iliad is the world's greatest war epic, then the Odyssey is literature's grandest evocation of everyman's journey though life. Odysseus' reliance on his wit and wiliness for survival in his encounters with divine and natural forces, during his ten-year voyage home to Ithaca after the Trojan War, is at once a timeless human story and an individual test of moral endurance. In the myths and legends that are retold here, Fagles has captured the energy and poetry of Homer's original in a bold, contemporary idiom, and given us an Odyssey to read aloud, to savor, and to treasure for its sheer lyrical mastery.Renowned classicist Bernard Knox's superb Introduction and textual commentary provide new insights and background information for the general reader and scholar alike, intensifying the strength of Fagles' translation.This is an Odyssey to delight both the classicist and the public at large, and to captivate a new generation of Homer's students.--Robert Fagles, winner of the PEN/Ralph Manheim Medal for Translation and a 1996 Academy Award in Literature from the American Academy of Arts and Letters, presents us with Homer's best-loved and most accessible poem in a stunning new modern-verse translation.",
+            "Genres": "['Classics', 'Fiction', 'Poetry', 'Mythology', 'Fantasy', 'School', 'Literature']",
+            "Avg_Rating": 3.8,
+            "Num_Ratings": "1,017,517",
+            "URL": "https://www.goodreads.com/book/show/1381.The_Odyssey"
+        },
+        {
+            "Unnamed: 0": 48,
+            "Book": "A Christmas Carol",
+            "Author": "Charles Dickens",
+            "Description": "'If I had my way, every idiot who goes around with Merry Christmas on his lips, would be boiled with his own pudding, and buried with a stake of holly through his heart. Merry Christmas? Bah humbug!'Introduction and Afterword by Joe WheelerTo bitter, miserly Ebenezer Scrooge, Christmas is just another day. But all that changes when the ghost of his long-dead business partner appears, warning Scrooge to change his ways before it's too late. Part of the Focus on the Family Great Stories collection, this abridged edition features an in-depth introduction and discussion questions by Joe Wheeler to provide greater understanding for today's reader. \"A Christmas Carol\" captures the heart of the holidays like no other novel.",
+            "Genres": "['Classics', 'Fiction', 'Christmas', 'Fantasy', 'Audiobook', 'Literature', 'Historical Fiction']",
+            "Avg_Rating": 4.07,
+            "Num_Ratings": "779,092",
+            "URL": "https://www.goodreads.com/book/show/5326.A_Christmas_Carol"
+        },
+        {
+            "Unnamed: 0": 49,
+            "Book": "The Cat in the Hat (The Cat in the Hat, #1)",
+            "Author": "Dr. Seuss",
+            "Description": "Have a ball with Dr. Seuss and the Cat in the Hat in this classic picture book...but don't forget to clean up your mess! Then he said That is that.And then he was goneWith a tip of his hat.A dreary day turns into a wild romp when this beloved story introduces readers to the Cat in the Hat and his troublemaking friends, Thing 1 and Thing 2 \u2013 And don't forget Fish! A favorite among kids, parents and teachers, this story uses simple words and basic rhyme to encourage and delight beginning readers.Originally created by \nDr. Seuss\n himself, Beginner Books are fun, funny, and easy to read. These unjacketed hardcover early readers encourage children to read all on their own, using simple words and illustrations. Smaller than the classic large format Seuss picture books like The Lorax and Oh, The Places You'll Go!, these portable packages are perfect for practicing readers ages 3-7, and lucky parents too!",
+            "Genres": "['Childrens', 'Picture Books', 'Classics', 'Fiction', 'Poetry', 'Fantasy', 'Humor']",
+            "Avg_Rating": 4.18,
+            "Num_Ratings": "515,170",
+            "URL": "https://www.goodreads.com/book/show/233093.The_Cat_in_the_Hat"
+        }
+    ]
+}
