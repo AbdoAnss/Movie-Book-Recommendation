@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 
 def main():
     st.title('🔍 Discover New Books and Movies!')
@@ -19,6 +20,19 @@ def main():
         st.markdown('---')
 
     st.warning('⚠️ We incountered errors when deploying the app in Streamlit Sharing.')
+
+    st.write('We are working on fixing the issue. In the meantime, you can run the app on your machine.')
+
+    working_directory = os.getcwd()
+
+    st.write('Here are some images from the app:')
+    st.markdown('---')
+    st.markdown('### Here is the home page')
+    st.image(working_directory+'/images/image1.png',caption='Home Page')
+    st.markdown('### Here is the configuration option to choose between Movies and Books & to initialize the system')
+    st.image(working_directory+'/images/image2.png',caption='Configuration option to choose between Movies and Books')
+
+    
 
 
     st.button('Click here to see how to run the app on your machine', key='info')
