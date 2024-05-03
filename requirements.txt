@@ -10,3 +10,4 @@ streamlit
 watchdog
 trulens_eval
 trulens
+IPython
