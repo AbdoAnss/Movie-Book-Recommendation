@@ -43,7 +43,7 @@ def main():
         st.write('2. Install the required packages:')
         st.code('pip install -r requirements.txt')
         st.write('3. Run the app:')
-        st.code('streamlit run app.py')
+        st.code('streamlit run app_ERROR.py')
         st.write('4. Open the app in your browser:')
         st.write('http://localhost:8501')
         st.write('5. Enjoy the app!')
