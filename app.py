@@ -9,15 +9,17 @@ def initialize_tru():
         st.session_state.tru = Tru()
 
 def main():
-    st.title('🔍 Movie/Book Recommendation System')
+    st.title('🔍 Discover New Books and Movies!')
     st.markdown("""
-    Welcome to the **Movie/Book Recommendation System**! 🌟🎥📚 This tool is designed to process your description with precision and provide recommendation from our database. 
-    Use this system to harness powerful insights from the data, interactively and efficiently.
+    Welcome to your personal recommendation assistant! 🌟📚 Whether you're in the mood for a thrilling mystery, heartwarming romance, or captivating documentary, simply describe your interests and let our app do the rest.
+    Just chat with us like you would with a friend, and we'll recommend books and movies tailored just for you. It's that easy!
     """)
+
 
     initialize_tru()
 
     with st.sidebar:
+        st.header('🧭 Navigation')
         st.page_link("app.py", label="Home", icon="🏠")
         st.page_link('pages/data.py', label='Data', icon='📊')
         st.page_link('pages/about.py', label='About our team', icon='🌟')
@@ -33,24 +35,40 @@ def main():
                 st.success('System initialized successfully! 🎉')
 
 
-    st.header('📝 Submit Your Query')
-    query = st.text_input('Enter your query here:', key='query_input')
+    st.header('📝 Describe Your Interests')
 
-    if st.button('Submit', key='submit_query'):
-        if 'vector_index' not in st.session_state:
-            with st.spinner('🔄 Initializing resources...'):
-                st.session_state.vector_index = setup()
+    # Checkbox for selecting search types
+    search_types = st.multiselect(
+        'I am interested in:',
+        ['Movies', 'Books'],
+        ['Movies']  # Default selection
+    )
 
-        query_manager = QueryManager(st.session_state.vector_index)
-        st.session_state.response = query_manager.perform_query(query)
 
-        feedback_manager = FeedbackManager(query_manager.query_engine)
-        st.session_state.records = feedback_manager.record_query(query)
+    # Validate selection
+    if not search_types:
+        st.error('Please select at least one search type.')
+    else:
+        query = st.text_area(
+        'Tell us about what you\'re looking for:',
+        key='query_input',
+    )
 
-        # Custom HTML styling for response display
-        st.markdown(f"**Response:** <div style='background-color:yellow;padding:10px;border-radius:5px;'>{st.session_state.response.response}</div>", unsafe_allow_html=True)
-        st.write('Response:', st.session_state.response)
-        st.write('Feedback Records:', st.session_state.records)
+        if st.button('Submit', key='submit_query'):
+            if 'vector_index' not in st.session_state:
+                with st.spinner('🔄 Initializing resources...'):
+                    st.session_state.vector_index = setup()
+
+            query_manager = QueryManager(st.session_state.vector_index)
+            st.session_state.response = query_manager.perform_query(query)
+
+            feedback_manager = FeedbackManager(query_manager.query_engine)
+            st.session_state.records = feedback_manager.record_query(query)
+
+            # Custom HTML styling for response display
+            st.markdown(f"**Response:** <div style='background-color:yellow;padding:10px;border-radius:5px;'>{st.session_state.response.response}</div>", unsafe_allow_html=True)
+            st.write('Response:', st.session_state.response)
+            st.write('Feedback Records:', st.session_state.records)
 
     manage_dashboard()
 

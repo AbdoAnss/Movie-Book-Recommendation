@@ -16,6 +16,14 @@ def load_json(file_name):
 
 def app():
     st.title("Data Page")
+    with st.sidebar:
+        st.header('🧭 Navigation')
+        st.page_link("app.py", label="Home", icon="🏠")
+        st.page_link('pages/data.py', label='Data', icon='📊')
+        st.page_link('pages/about.py', label='About our team', icon='🌟')
+        st.page_link('pages/contact.py', label='Contact us', icon='📧')
+        st.page_link('pages/help.py', label='Help', icon='❓')
+        st.markdown('---')
 
     # Load JSON data
     films_data = load_json('first_50_films.json')

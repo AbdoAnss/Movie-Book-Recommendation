@@ -2,6 +2,14 @@ import streamlit as st
 
 def main():
     st.title("Contact Us")
+    with st.sidebar:
+        st.header('🧭 Navigation')
+        st.page_link("app.py", label="Home", icon="🏠")
+        st.page_link('pages/data.py', label='Data', icon='📊')
+        st.page_link('pages/about.py', label='About our team', icon='🌟')
+        st.page_link('pages/contact.py', label='Contact us', icon='📧')
+        st.page_link('pages/help.py', label='Help', icon='❓')
+        st.markdown('---')
 
     # Display contact form
     st.write("Please fill out the form below to get in touch with us.")
