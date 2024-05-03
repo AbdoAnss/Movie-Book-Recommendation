@@ -34,7 +34,7 @@ def main():
         {
             "name": "Najm Ul Hassan",
             "role": "ML student",
-            "bio": "Skilled in digital marketing and brand development.",
+            "bio": "Student in ML and AI.",
             "image_url": "https://lablab.ai/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Flablab-static-eu%2Fimages%2Fusers%2Fundefined_picture_8iv20mg8.jpg&w=96&q=75"
         }
     ]
